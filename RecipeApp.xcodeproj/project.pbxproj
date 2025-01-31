@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81C0F8A12D4C52C500FF96A6 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 81C0F89D2D4C52C500FF96A6 /* Readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		81FC2B362D44684600CBF2BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -17,6 +21,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81C0F89D2D4C52C500FF96A6 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		81FC2B232D44684400CBF2BD /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FC2B352D44684600CBF2BD /* RecipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,6 +84,7 @@
 		81FC2B1A2D44684400CBF2BD = {
 			isa = PBXGroup;
 			children = (
+				81C0F89D2D4C52C500FF96A6 /* Readme.md */,
 				81FC2B252D44684400CBF2BD /* RecipeApp */,
 				81FC2B382D44684600CBF2BD /* RecipeAppTests */,
 				81FC2B242D44684400CBF2BD /* Products */,
@@ -186,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C0F8A12D4C52C500FF96A6 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
